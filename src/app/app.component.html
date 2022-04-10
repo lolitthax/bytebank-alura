@@ -1,1 +1,10 @@
-<router-outlet></router-outlet>
+<header>
+  <a routerLink="extrato"> Bytebank</a>
+  <!-- roterlink active faz com q qnd clicado o componente desapareça na página -->
+  <a routerLink="nova-transferencia" routerLinkActive="ativo"> Nova Transferência</a>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>
+
