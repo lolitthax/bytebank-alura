@@ -12,7 +12,7 @@ export const routes: Routes = [
   {path: 'nova-transferencia', component:NovaTransferenciaComponent},
 ]
 
-//importação de módulo sando o método estático forRoot e em seguida importação
+//importação de módulo sando o umétodo estático forRoot e em seguida importação
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports:[RouterModule]
